@@ -121,5 +121,5 @@ Rails.application.configure do
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
     :domain         => host,
     :authentication => :plain,}
-  end　
+  
 end
