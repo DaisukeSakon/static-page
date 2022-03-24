@@ -123,6 +123,6 @@ Rails.application.configure do
     :authentication => :plain,}
   
   # アップロードされたファイルをAWSに保存する
-  config.active_storage.service = :amazon  
+  #config.active_storage.service = :amazon  
   
 end
